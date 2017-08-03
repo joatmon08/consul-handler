@@ -1,0 +1,4 @@
+FROM consul:latest
+RUN mkdir /scripts
+RUN echo "" > /scripts/consul_watch.log
+COPY handler.sh /scripts/handler
