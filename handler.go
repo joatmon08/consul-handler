@@ -16,6 +16,7 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
+
 	scanner := bufio.NewScanner(os.Stdin)
 	scanner.Split(bufio.ScanWords)
 

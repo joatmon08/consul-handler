@@ -1,0 +1,14 @@
+{
+  "watches": [
+    {
+        "type": "key",
+        "key": "foo",
+        "handler": "/scripts/handler"
+    },
+    {
+        "type": "keyprefix",
+        "prefix": "foo",
+        "handler": "/scripts/handler"
+    }
+  ]
+}
